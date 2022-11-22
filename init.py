@@ -29,9 +29,6 @@ def showScreen():
     square() # Draw a square using our function
     glut.glutSwapBuffers()
 
-# This alone isn't enough to draw our square
-
-
 glut.glutInit() # Initialize a glut instance which will allow us to customize our window
 glut.glutInitDisplayMode(glut.GLUT_RGBA) # Set the display mode to be colored
 glut.glutInitWindowSize(500, 500)   # Set the width and height of your window
